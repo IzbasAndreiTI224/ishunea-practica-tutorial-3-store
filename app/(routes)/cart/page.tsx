@@ -1,7 +1,7 @@
 'use client'
 
 import { Container } from '@/components/ui/container'
-import { useCart } from '@/hooks/use-cart'
+import  useCart  from '@/hooks/use-cart'
 import { useEffect, useState } from 'react'
 import { CartItems } from './components/cart-items'
 import { Summary } from './components/summary'
