@@ -1,7 +1,7 @@
 'use client'
 
 import { IconButton } from '@/components/ui/icon-button'
-import { useCart } from '@/hooks/use-cart'
+import  useCart  from '@/hooks/use-cart'
 import usePreviewModal from '@/hooks/use-preview-modal'
 import { Product } from '@/types'
 import { Expand, ShoppingCart } from 'lucide-react'
